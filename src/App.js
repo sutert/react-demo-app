@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Welcome from './components/welcome/Welcome';
+import Jeopardy from './components/jeopardy/Jeopardy'; 
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <Welcome name="Eric" />
+      <Clock />
+      <Contact />
+      <Jeopardy />
     </div>
   );
 }
